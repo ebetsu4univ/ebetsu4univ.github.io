@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website with html And css</title>
+  <title>E4U | 江別4大学コミュニティ</title>
   <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -21,30 +21,29 @@
             <span></span>
           </div>
           <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Works</a></li>
-            <li class="btn"><a href="#">Contact Me</a></li>
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">E4Uとは</a></li>
+            <li><a href="#">活動内容</a></li>
+            <li><a href="#">活動実績</a></li>
+            <li class="btn"><a href="https://ebetsu4univ.herokuapp.com/">参加する</a></li>
           </ul>
         </nav>
       </header>
       <div class="container">
         <div class="hero-text">
-          <h3>Hi, There!</h3>
-          <h1>I Am <span class="input"></span></h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eos voluptatibus nemo, praesentium enim rem non pariatur sapiente reprehenderit soluta.</p>
+          <h3>ようこそ！<span class="input"></span></h3>
+          <h1>あなたの学生時代を最高なものに</h1>
+          <p>E4Uとは、江別4大学（北海道情報大学、酪農学園大学、北翔大学・短期大学部、札幌学院大学）の学生が集まり、大学間の学生交流の壁をなくしていくことを目的にしたコミュニティーを作るプロジェクトです。<br>将来的には学生のみの運営だけではなく江別の4大学にもサポートをしていただくことで継続的な大学コミュニティーの運営を目標としています。<br>現在は定期的に交流会を実施し、4大学の学生同士が交流できる場の提供をしています。<br>今後は４大学の学生が企画したイベントの開催などを計画しています。</p>
           <div class="social">
-            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://www.facebook.com/Ebetsu4U/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://twitter.com/ebetsu_4u"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ebetsu_4/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://note.com/ebetsu_4u/"><i class="fa-brands fa-dribbble"></i></a>
           </div>
-          <button type="button">More About Me</button>
+          <button type="button">もっと見る</button>
         </div>
         <div class="bottom">
-          <p>© 2022 Tahmid - All Rights Reserved.</p>
+          <p>© 2022 E4U 江別4大学コミュニティ - All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -53,9 +52,10 @@
   <script src="script.js"></script>
   <script>
     const typed = new Typed('.input', {
-      strings: ['Elizabeth Elmiz.', 'Web Developer.', 'UX Designer.', 'Photographer.'],
-      typeSpeed: 70,
-      backSpeed: 60,
+      strings: ['E4U<span class="text-white">へ</span>', '江別4大学コミュニティ<span class="text-white">へ</span>'],
+      typeSpeed: 100,
+      backSpeed: 90,
+      backDelay: 2000,
       loop: true,
     });
   </script>
