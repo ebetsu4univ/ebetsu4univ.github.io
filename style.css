@@ -106,7 +106,7 @@ nav .nav-list li.btn:hover a {
   padding-top: 190px;
 }
 .container .hero-text {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .container .hero-text h1 {
   color: white;
@@ -176,6 +176,35 @@ span {
   letter-spacing: 2px;
   font-size: 15px;
 }
+
+.group {
+  background: #d7ece0;
+  padding: 120px 0;
+}
+.heading {
+  color: #2ecc71;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.heading h1 {
+  font-size: 47px;
+  font-weight: 500;
+}
+.heading p {
+  font-size: 15px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  flex: 0.54;
+}
+.image {
+  flex: 0.43;
+  width: 100%;
+}
+
 @media screen and (max-width: 930px) {
   nav .hamb {
     display: initial;
